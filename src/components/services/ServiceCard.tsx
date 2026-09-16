@@ -1,7 +1,10 @@
-import type { Service } from "@/types/content";
+import { serviceIcons } from "@/i18n/assets";
+import type { Dictionary } from "@/i18n/dictionary";
 
-export function ServiceCard({ service }: { service: Service }) {
-  const Icon = service.icon;
+type ServiceItem = Dictionary["services"]["items"][number];
+
+export function ServiceCard({ service }: { service: ServiceItem }) {
+  const Icon = serviceIcons[service.id];
 
   return (
     <div className="group flex flex-col gap-4 rounded-2xl border border-navy-100 bg-white p-6 transition-shadow duration-200 hover:shadow-lg hover:shadow-navy-900/5">

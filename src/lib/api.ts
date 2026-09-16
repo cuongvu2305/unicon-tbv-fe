@@ -8,8 +8,8 @@ export interface ContactPayload {
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
 
 /** Thrown with the raw message CODE from the backend (e.g. "MSG004"), not
- * display text — callers convert it via `getMessageText` from
- * `@/lib/messageCodes` at the point where it's actually rendered. */
+ * display text — callers look it up in `dict.messageCodes` (see
+ * `src/i18n/dictionaries/`) at the point where it's actually rendered. */
 export class ApiError extends Error {
   status: number;
   code: string;

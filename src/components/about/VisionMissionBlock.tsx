@@ -1,12 +1,12 @@
 import { Telescope, Target } from "lucide-react";
-import { vision, mission } from "@/data/coreValues";
+import type { Dictionary } from "@/i18n/dictionary";
 
-const blocks = [
-  { title: "Tầm nhìn", icon: Telescope, items: vision },
-  { title: "Sứ mệnh", icon: Target, items: mission },
-];
+export function VisionMissionBlock({ dict }: { dict: Dictionary }) {
+  const blocks = [
+    { title: dict.about.visionTitle, icon: Telescope, items: dict.about.vision },
+    { title: dict.about.missionTitle, icon: Target, items: dict.about.mission },
+  ];
 
-export function VisionMissionBlock() {
   return (
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
       {blocks.map(({ title, icon: Icon, items }) => (

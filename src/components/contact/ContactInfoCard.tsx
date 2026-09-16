@@ -1,23 +1,27 @@
 import { MapPin, Phone, Mail, UserRound, FileText } from "lucide-react";
 import { company } from "@/data/company";
+import type { Locale } from "@/i18n/config";
+import type { Dictionary } from "@/i18n/dictionary";
 
-const items = [
-  { icon: MapPin, label: "Địa chỉ", value: company.address },
-  { icon: Phone, label: "Điện thoại", value: company.phone },
-  { icon: Mail, label: "Email", value: company.email },
-  {
-    icon: UserRound,
-    label: "Đại diện pháp luật",
-    value: `${company.legalRepresentative} — ${company.legalRepresentativeTitle}`,
-  },
-  { icon: FileText, label: "Mã số thuế", value: company.taxCode },
-];
+export function ContactInfoCard({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+  const { info } = dict.contact;
 
-export function ContactInfoCard() {
+  const items = [
+    { icon: MapPin, label: info.addressLabel, value: company.address },
+    { icon: Phone, label: info.phoneLabel, value: company.phone },
+    { icon: Mail, label: info.emailLabel, value: company.email },
+    {
+      icon: UserRound,
+      label: info.legalRepLabel,
+      value: `${company.legalRepresentative} — ${info.legalRepTitle}`,
+    },
+    { icon: FileText, label: info.taxCodeLabel, value: company.taxCode },
+  ];
+
   return (
     <div className="rounded-2xl bg-navy-950 p-8 text-white">
-      <h3 className="text-lg font-bold">{company.nameVi}</h3>
-      <p className="mt-1 text-sm text-white/60">{company.nameEn}</p>
+      <h3 className="text-lg font-bold">{locale === "en" ? company.nameEn : company.nameVi}</h3>
+      <p className="mt-1 text-sm text-white/60">{locale === "en" ? company.nameVi : company.nameEn}</p>
 
       <ul className="mt-8 space-y-5">
         {items.map(({ icon: Icon, label, value }) => (
