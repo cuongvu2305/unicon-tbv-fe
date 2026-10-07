@@ -234,6 +234,7 @@ export const en: Dictionary = {
         "From manufacturing plants to industrial facilities, UNICON TBV delivers comprehensive M&E solutions for every project.",
     },
     galleryTitle: "Site photos",
+    backToList: "All projects",
     scopeLabel: "Scope of work:",
     items: [
       {

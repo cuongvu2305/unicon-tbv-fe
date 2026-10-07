@@ -235,6 +235,7 @@ export const vi: Dictionary = {
         "Từ nhà máy sản xuất đến cơ sở công nghiệp, UNICON TBV mang đến giải pháp cơ điện toàn diện cho từng dự án.",
     },
     galleryTitle: "Hình ảnh thi công thực tế",
+    backToList: "Tất cả dự án",
     scopeLabel: "Hạng mục thực hiện:",
     items: [
       {
