@@ -17,9 +17,17 @@ export const projectImages: Record<string, string> = {
   yadea: "/images/projects/yadea.svg",
   "meda-kosen": "/images/projects/meda-kosen.svg",
   "prussia-metal": "/images/projects/prussia-metal.svg",
-  "hoa-mau": "/images/projects/hoa-mau.svg",
+  "hoa-mau": "/images/projects/hoa-mau/03.jpg",
   "soi-gia": "/images/projects/soi-gia.svg",
   enoel: "/images/projects/enoel.svg",
+};
+
+/** Site photos per project, keyed by project id (projects without photos are omitted). */
+const galleryOf = (id: string, count: number) =>
+  Array.from({ length: count }, (_, i) => `/images/projects/${id}/${String(i + 1).padStart(2, "0")}.jpg`);
+
+export const projectGalleries: Record<string, string[]> = {
+  "hoa-mau": galleryOf("hoa-mau", 16),
 };
 
 export const partnerLogos: Record<string, string> = {

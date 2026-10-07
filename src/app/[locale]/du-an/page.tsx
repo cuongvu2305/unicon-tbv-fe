@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Section } from "@/components/layout/Section";
+import { ProjectGallery } from "@/components/projects/ProjectGallery";
 import { ProjectCard } from "@/components/projects/ProjectCard";
 import { isLocale, defaultLocale, type Locale } from "@/i18n/config";
+import { projectGalleries } from "@/i18n/assets";
 import { getDictionary } from "@/i18n/dictionaries";
 
 export async function generateMetadata({
@@ -36,6 +38,16 @@ export default async function ProjectsPage({ params }: { params: Promise<{ local
           ))}
         </div>
       </Section>
+
+      {dict.projects.items
+        .filter((project) => projectGalleries[project.id])
+        .map((project) => (
+          <Section key={project.id} variant="muted">
+            <h2 className="text-xl font-bold text-navy-900">{project.name}</h2>
+            <p className="mb-6 mt-1 text-sm text-navy-500">{dict.projects.galleryTitle}</p>
+            <ProjectGallery images={projectGalleries[project.id]} alt={project.name} />
+          </Section>
+        ))}
     </>
   );
 }

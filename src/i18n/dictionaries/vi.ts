@@ -234,6 +234,7 @@ export const vi: Dictionary = {
       subtitle:
         "Từ nhà máy sản xuất đến cơ sở công nghiệp, UNICON TBV mang đến giải pháp cơ điện toàn diện cho từng dự án.",
     },
+    galleryTitle: "Hình ảnh thi công thực tế",
     scopeLabel: "Hạng mục thực hiện:",
     items: [
       {
@@ -255,6 +256,46 @@ export const vi: Dictionary = {
         id: "hoa-mau",
         name: "Cơ sở sản xuất vải dệt hóa học Hoa Mậu (Việt Nam)",
         scopeOfWork: "Thi công lắp đặt Hệ thống Cấp thoát nước",
+      },
+      {
+        id: "tram-xu-ly-nuoc-thai-hoa-mau",
+        name: "Dự án lắp đặt Trạm xử lý nước thải Hoa Mậu",
+        scopeOfWork: "Thi công lắp đặt Trạm xử lý nước thải",
+      },
+      {
+        id: "thuan-thanh-3",
+        name: "Dự án Thuận Thành 3",
+        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện",
+      },
+      {
+        id: "hmt",
+        name: "Dự án HMT - KCN An Dương, Hải Phòng",
+        scopeOfWork: "Thi công lắp đặt hệ thống đường ống và trạm bơm",
+      },
+      {
+        id: "yida",
+        name: "Dự án YIDA - Cẩm Khê, Phú Thọ",
+        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện, đường ống và điều hòa thông gió",
+      },
+      {
+        id: "tram-xu-ly-nuoc-thai-hoa-mau",
+        name: "Dự án lắp đặt Trạm xử lý nước thải Hoa Mậu",
+        scopeOfWork: "Thi công lắp đặt Trạm xử lý nước thải",
+      },
+      {
+        id: "thuan-thanh-3",
+        name: "Dự án Thuận Thành 3",
+        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện",
+      },
+      {
+        id: "hmt",
+        name: "Dự án HMT - KCN An Dương, Hải Phòng",
+        scopeOfWork: "Thi công lắp đặt hệ thống đường ống và trạm bơm",
+      },
+      {
+        id: "yida",
+        name: "Dự án YIDA - Cẩm Khê, Phú Thọ",
+        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện, đường ống và điều hòa thông gió",
       },
       {
         id: "soi-gia",
