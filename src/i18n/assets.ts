@@ -18,6 +18,7 @@ export const projectImages: Record<string, string> = {
   "meda-kosen": "/images/projects/meda-kosen.svg",
   "prussia-metal": "/images/projects/prussia-metal.svg",
   "hoa-mau": "/images/projects/hoa-mau/03.jpg",
+  "tram-xu-ly-nuoc-thai-hoa-mau": "/images/projects/tram-xu-ly-nuoc-thai-hoa-mau/01.jpg",
   "soi-gia": "/images/projects/soi-gia.svg",
   enoel: "/images/projects/enoel.svg",
 };
@@ -28,6 +29,7 @@ const galleryOf = (id: string, count: number) =>
 
 export const projectGalleries: Record<string, string[]> = {
   "hoa-mau": galleryOf("hoa-mau", 16),
+  "tram-xu-ly-nuoc-thai-hoa-mau": galleryOf("tram-xu-ly-nuoc-thai-hoa-mau", 28),
 };
 
 export const partnerLogos: Record<string, string> = {
