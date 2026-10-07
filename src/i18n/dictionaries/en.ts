@@ -278,26 +278,6 @@ export const en: Dictionary = {
         scopeOfWork: "M&E, piping and HVAC installation",
       },
       {
-        id: "tram-xu-ly-nuoc-thai-hoa-mau",
-        name: "Hoa Mau Wastewater Treatment Plant Installation Project",
-        scopeOfWork: "Installation of the wastewater treatment plant",
-      },
-      {
-        id: "thuan-thanh-3",
-        name: "Thuan Thanh 3 Project",
-        scopeOfWork: "Mechanical and electrical (M&E) installation",
-      },
-      {
-        id: "hmt",
-        name: "HMT Project - An Duong Industrial Park, Hai Phong",
-        scopeOfWork: "Piping and pump station installation",
-      },
-      {
-        id: "yida",
-        name: "YIDA Project - Cam Khe, Phu Tho",
-        scopeOfWork: "M&E, piping and HVAC installation",
-      },
-      {
         id: "soi-gia",
         name: "30,000-Spindle Yarn Production Factory",
         scopeOfWork: "Siphonic stormwater drainage system installation",

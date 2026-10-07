@@ -279,26 +279,6 @@ export const vi: Dictionary = {
         scopeOfWork: "Thi công lắp đặt hệ thống cơ điện, đường ống và điều hòa thông gió",
       },
       {
-        id: "tram-xu-ly-nuoc-thai-hoa-mau",
-        name: "Dự án lắp đặt Trạm xử lý nước thải Hoa Mậu",
-        scopeOfWork: "Thi công lắp đặt Trạm xử lý nước thải",
-      },
-      {
-        id: "thuan-thanh-3",
-        name: "Dự án Thuận Thành 3",
-        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện",
-      },
-      {
-        id: "hmt",
-        name: "Dự án HMT - KCN An Dương, Hải Phòng",
-        scopeOfWork: "Thi công lắp đặt hệ thống đường ống và trạm bơm",
-      },
-      {
-        id: "yida",
-        name: "Dự án YIDA - Cẩm Khê, Phú Thọ",
-        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện, đường ống và điều hòa thông gió",
-      },
-      {
         id: "soi-gia",
         name: "Nhà máy sản xuất sợi gia 30.000 cọc sợi",
         scopeOfWork: "Thi công lắp đặt hệ thống thoát nước mưa Siphonic",
