@@ -1,4 +1,6 @@
 import { ArrowRight, ShieldCheck } from "lucide-react";
+import { HeroSlides } from "@/components/home/HeroSlides";
+import { heroSlides } from "@/i18n/assets";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import type { Locale } from "@/i18n/config";
@@ -7,6 +9,7 @@ import type { Dictionary } from "@/i18n/dictionary";
 export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <section className="relative overflow-hidden bg-navy-950 text-white">
+      <HeroSlides images={heroSlides} />
       <div
         aria-hidden
         className="pointer-events-none absolute -right-32 -top-32 h-96 w-96 rounded-full bg-gold-500/10 blur-3xl"

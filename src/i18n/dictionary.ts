@@ -40,6 +40,15 @@ export interface Dictionary {
     ctaProjects: string;
   };
 
+  whyChoose: {
+    eyebrow: string;
+    title: string;
+    /** Descriptions may contain an "{n}" placeholder, filled with a computed count. */
+    items: { title: string; description: string }[];
+  };
+
+  floatingCall: string;
+
   aboutTeaser: {
     eyebrow: string;
     title: string;

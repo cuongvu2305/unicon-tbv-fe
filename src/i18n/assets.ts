@@ -38,6 +38,22 @@ export const projectGalleries: Record<string, string[]> = {
   "tram-xu-ly-nuoc-thai-hoa-mau": galleryOf("tram-xu-ly-nuoc-thai-hoa-mau", 28),
 };
 
+export const heroSlides: string[] = [
+  "/images/projects/yida/14.jpg",
+  "/images/projects/tram-xu-ly-nuoc-thai-hoa-mau/01.jpg",
+  "/images/projects/thuan-thanh-3/08.jpg",
+  "/images/projects/hoa-mau/03.jpg",
+  "/images/projects/hmt/03.jpg",
+];
+
+export const serviceImages: Record<string, string> = {
+  "dien-dong-luc": "/images/projects/yida/15.jpg",
+  "dieu-hoa-thong-gio": "/images/projects/yida/20.jpg",
+  "cap-thoat-nuoc": "/images/projects/hoa-mau/03.jpg",
+  "dien-nhe": "/images/projects/yida/10.jpg",
+  pccc: "/images/projects/thuan-thanh-3/04.jpg",
+};
+
 export const partnerLogos: Record<string, string> = {
   maedakosen: "/images/partners/maedakosen.svg",
   yadea: "/images/partners/yadea.svg",

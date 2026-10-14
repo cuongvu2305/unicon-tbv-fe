@@ -1,6 +1,7 @@
 import { Hero } from "@/components/home/Hero";
 import { AboutTeaser } from "@/components/home/AboutTeaser";
 import { ServicesSection } from "@/components/home/ServicesSection";
+import { WhyChooseSection } from "@/components/home/WhyChooseSection";
 import { CapabilitiesSection } from "@/components/home/CapabilitiesSection";
 import { ProjectsTeaser } from "@/components/home/ProjectsTeaser";
 import { PartnersSection } from "@/components/home/PartnersSection";
@@ -18,6 +19,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Hero locale={locale} dict={dict} />
       <AboutTeaser locale={locale} dict={dict} />
       <ServicesSection dict={dict} />
+      <WhyChooseSection dict={dict} />
       <CapabilitiesSection dict={dict} />
       <ProjectsTeaser locale={locale} dict={dict} />
       <PartnersSection dict={dict} />

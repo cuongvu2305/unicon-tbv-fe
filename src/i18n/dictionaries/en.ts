@@ -63,6 +63,39 @@ export const en: Dictionary = {
     ctaProjects: "View Featured Projects",
   },
 
+  whyChoose: {
+    eyebrow: "Why UNICON TBV",
+    title: "A reliable M&E partner for your project",
+    items: [
+      {
+        title: "Turnkey solutions",
+        description: "From design and construction to material supply, a single point of contact for all M&E work.",
+      },
+      {
+        title: "Skilled team",
+        description: "{n} engineers and technical staff across disciplines: electrical, mechanical, plumbing, HVAC and civil.",
+      },
+      {
+        title: "Full construction equipment",
+        description: "{n} groups of specialised machinery and equipment, keeping schedule and quality under control.",
+      },
+      {
+        title: "Multi-discipline M&E",
+        description: "{n} fields: power, HVAC, water supply and drainage, low-voltage and fire protection.",
+      },
+      {
+        title: "Real projects",
+        description: "{n} featured projects at factories and industrial parks nationwide.",
+      },
+      {
+        title: "Fast consultation",
+        description: "Prompt site survey, quotation and technical support via hotline and email.",
+      },
+    ],
+  },
+
+  floatingCall: "Call now",
+
   aboutTeaser: {
     eyebrow: "About UNICON TBV",
     title: "A Trusted M&E Contracting Partner",

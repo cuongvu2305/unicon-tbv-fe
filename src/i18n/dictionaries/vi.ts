@@ -64,6 +64,39 @@ export const vi: Dictionary = {
     ctaProjects: "Xem dự án tiêu biểu",
   },
 
+  whyChoose: {
+    eyebrow: "Vì sao chọn UNICON TBV",
+    title: "Đối tác cơ điện đáng tin cậy cho công trình của bạn",
+    items: [
+      {
+        title: "Giải pháp trọn gói",
+        description: "Từ thiết kế, thi công đến cung ứng vật tư, một đầu mối duy nhất cho toàn bộ hạng mục cơ điện.",
+      },
+      {
+        title: "Đội ngũ chuyên môn",
+        description: "{n} kỹ sư và nhân sự kỹ thuật nhiều chuyên ngành: điện, cơ khí, cấp thoát nước, nhiệt - điện lạnh, xây dựng.",
+      },
+      {
+        title: "Thiết bị thi công đầy đủ",
+        description: "{n} nhóm máy móc, thiết bị thi công chuyên dụng, chủ động tiến độ và chất lượng.",
+      },
+      {
+        title: "Đa lĩnh vực M&E",
+        description: "{n} lĩnh vực: điện động lực, điều hòa thông gió, cấp thoát nước, điện nhẹ, phòng cháy chữa cháy.",
+      },
+      {
+        title: "Dự án thực tế",
+        description: "{n} dự án tiêu biểu tại các nhà máy, khu công nghiệp trên cả nước.",
+      },
+      {
+        title: "Tư vấn nhanh chóng",
+        description: "Hỗ trợ khảo sát, báo giá và giải đáp kỹ thuật kịp thời qua hotline và email.",
+      },
+    ],
+  },
+
+  floatingCall: "Gọi ngay",
+
   aboutTeaser: {
     eyebrow: "Về UNICON TBV",
     title: "Đối tác thi công cơ điện đáng tin cậy",

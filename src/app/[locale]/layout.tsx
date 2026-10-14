@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/layout/Header";
+import { FloatingCall } from "@/components/layout/FloatingCall";
 import { Footer } from "@/components/layout/Footer";
 import { company } from "@/data/company";
 import { locales, isLocale, defaultLocale, type Locale } from "@/i18n/config";
@@ -64,6 +65,7 @@ export default async function LocaleLayout({
         <Header locale={locale} dict={dict} />
         <main>{children}</main>
         <Footer locale={locale} dict={dict} />
+        <FloatingCall label={dict.floatingCall} />
       </body>
     </html>
   );
