@@ -7,7 +7,7 @@ import { Section } from "@/components/layout/Section";
 import { ProjectGallery } from "@/components/projects/ProjectGallery";
 import { isLocale, defaultLocale, locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { projectGalleries } from "@/i18n/assets";
+import { projectGalleries, projectImages, projectVideos } from "@/i18n/assets";
 
 type Params = Promise<{ locale: string; id: string }>;
 
@@ -44,6 +44,7 @@ export default async function ProjectDetailPage({
   if (!project) notFound();
 
   const gallery = projectGalleries[project.id];
+  const videos = projectVideos[project.id];
 
   return (
     <>
@@ -61,6 +62,25 @@ export default async function ProjectDetailPage({
           <ArrowLeft className="h-4 w-4" />
           {dict.projects.backToList}
         </Link>
+
+        {videos && (
+          <div className="mb-12">
+            <h2 className="mb-6 text-xl font-bold text-navy-900">{dict.projects.videoTitle}</h2>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+              {videos.map((src) => (
+                <video
+                  key={src}
+                  src={src}
+                  poster={projectImages[project.id]}
+                  controls
+                  preload="metadata"
+                  playsInline
+                  className="aspect-video w-full rounded-2xl bg-navy-950"
+                />
+              ))}
+            </div>
+          </div>
+        )}
 
         {gallery && (
           <>

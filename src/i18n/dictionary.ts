@@ -107,6 +107,7 @@ export interface Dictionary {
     page: { eyebrow: string; title: string; subtitle: string };
     scopeLabel: string;
     galleryTitle: string;
+    videoTitle: string;
     backToList: string;
     items: { id: string; name: string; scopeOfWork: string }[];
   };

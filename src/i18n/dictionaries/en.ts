@@ -268,6 +268,7 @@ export const en: Dictionary = {
     },
     galleryTitle: "Site photos",
     backToList: "All projects",
+    videoTitle: "Project video",
     scopeLabel: "Scope of work:",
     items: [
       {

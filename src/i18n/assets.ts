@@ -40,6 +40,11 @@ export const projectGalleries: Record<string, string[]> = {
   "tram-xu-ly-nuoc-thai-hoa-mau": galleryOf("tram-xu-ly-nuoc-thai-hoa-mau", 28),
 };
 
+/** Videos per project, keyed by project id (projects without videos are omitted). */
+export const projectVideos: Record<string, string[]> = {
+  "gia-thinh": ["/videos/gia-thinh/01.mp4"],
+};
+
 export const heroSlides: string[] = [
   "/images/projects/yida/14.jpg",
   "/images/projects/tram-xu-ly-nuoc-thai-hoa-mau/01.jpg",

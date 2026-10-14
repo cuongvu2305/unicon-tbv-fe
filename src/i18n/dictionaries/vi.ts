@@ -269,6 +269,7 @@ export const vi: Dictionary = {
     },
     galleryTitle: "Hình ảnh thi công thực tế",
     backToList: "Tất cả dự án",
+    videoTitle: "Video dự án",
     scopeLabel: "Hạng mục thực hiện:",
     items: [
       {
