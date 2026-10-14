@@ -8,15 +8,19 @@ export function PartnerLogoGrid({ items }: { items: Dictionary["partners"]["item
       {items.map((partner) => (
         <div
           key={partner.id}
-          className="flex items-center justify-center rounded-xl border border-navy-100 bg-white p-4 grayscale transition duration-200 hover:grayscale-0"
+          title={partner.name}
+          className="flex flex-col items-center gap-3 rounded-xl border border-navy-100 bg-white p-5"
         >
-          <Image
-            src={partnerLogos[partner.id]}
-            alt={partner.name}
-            width={160}
-            height={80}
-            className="h-auto w-full"
-          />
+          <div className="relative h-16 w-full">
+            <Image
+              src={partnerLogos[partner.id]}
+              alt={partner.name}
+              fill
+              className="object-contain"
+              sizes="(min-width: 640px) 25vw, 50vw"
+            />
+          </div>
+          <span className="text-center text-xs font-medium text-navy-600">{partner.name}</span>
         </div>
       ))}
     </div>

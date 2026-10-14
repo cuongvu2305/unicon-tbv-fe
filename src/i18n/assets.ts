@@ -72,8 +72,8 @@ export const serviceImages: Record<string, string> = {
 };
 
 export const partnerLogos: Record<string, string> = {
-  maedakosen: "/images/partners/maedakosen.svg",
+  maedakosen: "/images/partners/maedakosen.png",
   yadea: "/images/partners/yadea.svg",
-  kinden: "/images/partners/kinden.svg",
+  kinden: "/images/partners/kinden.png",
   takasago: "/images/partners/takasago.svg",
 };
