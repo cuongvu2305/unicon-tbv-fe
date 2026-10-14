@@ -81,7 +81,7 @@ export const en: Dictionary = {
       },
       {
         title: "Multi-discipline M&E",
-        description: "{n} fields: power, HVAC, water supply and drainage, low-voltage, fire protection and industrial ceiling fans.",
+        description: "{n} fields: power, HVAC, water supply and drainage, low-voltage, fire protection, industrial ceiling fans and rolling doors.",
       },
       {
         title: "Real projects",
@@ -209,6 +209,12 @@ export const en: Dictionary = {
         description:
           "Supply and installation of large HVLS industrial ceiling fans for factories, warehouses and sports halls, improving air circulation, cooling and saving energy.",
       },
+      {
+        id: "cua-cuon",
+        title: "Industrial Rolling Doors",
+        description:
+          "Supply and installation of industrial rolling doors, high-speed doors and sectional doors for factories and warehouses: fast, durable and safe.",
+      },
     ],
   },
 
@@ -326,6 +332,11 @@ export const en: Dictionary = {
         id: "quat-tran-cong-nghiep",
         name: "Industrial ceiling fans",
         scopeOfWork: "Supply and installation of industrial ceiling fans",
+      },
+      {
+        id: "cua-cuon",
+        name: "Industrial rolling doors",
+        scopeOfWork: "Supply and installation of industrial rolling doors",
       },
       {
         id: "soi-gia",

@@ -15,7 +15,7 @@ export const vi: Dictionary = {
     home: {
       title: "Trang chủ",
       description:
-        "UNICON TBV - Công ty Cổ phần Thương mại Kỹ thuật chuyên thiết kế, thi công hệ thống cơ điện (M&E): điện, điều hòa thông gió, cấp thoát nước, điện nhẹ, phòng cháy chữa cháy, quạt trần công nghiệp.",
+        "UNICON TBV - Công ty Cổ phần Thương mại Kỹ thuật chuyên thiết kế, thi công hệ thống cơ điện (M&E): điện, điều hòa thông gió, cấp thoát nước, điện nhẹ, phòng cháy chữa cháy, quạt trần và cửa cuốn công nghiệp.",
     },
     about: {
       title: "Giới thiệu",
@@ -210,6 +210,12 @@ export const vi: Dictionary = {
         description:
           "Cung cấp và lắp đặt quạt trần công nghiệp cỡ lớn (HVLS) cho nhà xưởng, kho bãi và nhà thi đấu, giúp lưu thông không khí, giảm nhiệt và tiết kiệm điện.",
       },
+      {
+        id: "cua-cuon",
+        title: "Cửa cuốn công nghiệp",
+        description:
+          "Cung cấp và lắp đặt cửa cuốn công nghiệp, cửa cuốn tốc độ cao và cửa trượt trần cho nhà máy, kho xưởng, vận hành nhanh, bền và an toàn.",
+      },
     ],
   },
 
@@ -327,6 +333,11 @@ export const vi: Dictionary = {
         id: "quat-tran-cong-nghiep",
         name: "Quạt trần công nghiệp",
         scopeOfWork: "Cung cấp và lắp đặt quạt trần công nghiệp",
+      },
+      {
+        id: "cua-cuon",
+        name: "Cửa cuốn công nghiệp",
+        scopeOfWork: "Cung cấp và lắp đặt cửa cuốn công nghiệp",
       },
       {
         id: "soi-gia",
