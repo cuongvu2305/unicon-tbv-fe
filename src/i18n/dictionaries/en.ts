@@ -311,6 +311,11 @@ export const en: Dictionary = {
         scopeOfWork: "M&E, piping and HVAC installation",
       },
       {
+        id: "gia-thinh",
+        name: "Gia Thinh Project",
+        scopeOfWork: "Mechanical and electrical (M&E) installation",
+      },
+      {
         id: "soi-gia",
         name: "30,000-Spindle Yarn Production Factory",
         scopeOfWork: "Siphonic stormwater drainage system installation",

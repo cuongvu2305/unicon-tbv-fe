@@ -312,6 +312,11 @@ export const vi: Dictionary = {
         scopeOfWork: "Thi công lắp đặt hệ thống cơ điện, đường ống và điều hòa thông gió",
       },
       {
+        id: "gia-thinh",
+        name: "Dự án Gia Thịnh",
+        scopeOfWork: "Thi công lắp đặt hệ thống cơ điện",
+      },
+      {
         id: "soi-gia",
         name: "Nhà máy sản xuất sợi gia 30.000 cọc sợi",
         scopeOfWork: "Thi công lắp đặt hệ thống thoát nước mưa Siphonic",
