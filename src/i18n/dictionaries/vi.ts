@@ -25,6 +25,10 @@ export const vi: Dictionary = {
       title: "Dự án tiêu biểu",
       description: "Các dự án thi công cơ điện (M&E) tiêu biểu của UNICON TBV.",
     },
+    catalogue: {
+      title: "Catalogue & Tài liệu",
+      description: "Catalogue sản phẩm, chứng chỉ và hồ sơ kỹ thuật quạt trần công nghiệp do UNICON TBV cung cấp.",
+    },
     contact: {
       title: "Liên hệ",
       description: "Liên hệ với UNICON TBV để được tư vấn giải pháp thi công cơ điện (M&E).",
@@ -42,6 +46,7 @@ export const vi: Dictionary = {
     services: "Lĩnh vực hoạt động",
     capabilities: "Năng lực",
     projects: "Dự án",
+    catalogue: "Catalogue",
     contact: "Liên hệ",
     contactCta: "Liên hệ ngay",
   },
@@ -348,6 +353,58 @@ export const vi: Dictionary = {
         id: "enoel",
         name: "Nhà máy Công nghệ vật liệu mới Enoel Việt Nam",
         scopeOfWork: "Cải tạo nhà xưởng và nhà văn phòng",
+      },
+    ],
+  },
+
+  catalogue: {
+    page: {
+      eyebrow: "Catalogue",
+      title: "Catalogue & Tài liệu kỹ thuật",
+      subtitle: "Xem hoặc tải về catalogue sản phẩm, chứng chỉ chất lượng và hồ sơ kỹ thuật quạt trần công nghiệp.",
+    },
+    manufacturerNote:
+      "Các tài liệu dưới đây là của nhà sản xuất Wuxi Lusida (Lustar) Intelligent Technology Co., Ltd, được cung cấp để khách hàng tham khảo. Chứng chỉ và hồ sơ kỹ thuật thuộc về nhà sản xuất.",
+    pagesLabel: "trang",
+    view: "Xem",
+    download: "Tải về",
+    groups: [
+      {
+        title: "Catalogue sản phẩm",
+        items: [
+          {
+            id: "product-catalogue",
+            title: "Catalogue quạt trần công nghiệp",
+            description:
+              "Giới thiệu công nghệ điều khiển, động cơ nam châm vĩnh cửu, lĩnh vực ứng dụng và thông số các dòng quạt. Ngôn ngữ: Trung - Anh.",
+          },
+        ],
+      },
+      {
+        title: "Chứng chỉ chất lượng",
+        items: [
+          {
+            id: "iso-9001",
+            title: "Chứng chỉ ISO 9001:2015",
+            description:
+              "Chứng nhận hệ thống quản lý chất lượng cho sản xuất quạt công nghiệp của nhà sản xuất, hiệu lực đến 17/03/2027. Ngôn ngữ: Anh.",
+          },
+        ],
+      },
+      {
+        title: "Hồ sơ kỹ thuật",
+        items: [
+          {
+            id: "ce-technical-file",
+            title: "Hồ sơ kỹ thuật CE",
+            description: "Hồ sơ kỹ thuật theo Chỉ thị máy móc 2006/42/EC cho quạt trần công nghiệp. Ngôn ngữ: Anh.",
+          },
+          {
+            id: "emc-technical-file",
+            title: "Hồ sơ kỹ thuật EMC",
+            description: "Hồ sơ thử nghiệm tương thích điện từ (EMC) cho quạt trần công nghiệp, tháng 7/2024. Ngôn ngữ: Anh.",
+          },
+        ],
       },
     ],
   },

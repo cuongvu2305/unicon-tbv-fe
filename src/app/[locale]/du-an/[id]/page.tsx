@@ -45,6 +45,7 @@ export default async function ProjectDetailPage({
 
   const gallery = projectGalleries[project.id];
   const videos = projectVideos[project.id];
+  const hasCatalogue = project.id === "quat-tran-cong-nghiep";
 
   return (
     <>
@@ -62,6 +63,15 @@ export default async function ProjectDetailPage({
           <ArrowLeft className="h-4 w-4" />
           {dict.projects.backToList}
         </Link>
+
+        {hasCatalogue && (
+          <Link
+            href={`/${locale}/catalogue`}
+            className="mb-10 inline-flex items-center gap-2 rounded-full bg-navy-900 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-navy-800"
+          >
+            {dict.nav.catalogue}
+          </Link>
+        )}
 
         {videos && (
           <div className="mb-12">

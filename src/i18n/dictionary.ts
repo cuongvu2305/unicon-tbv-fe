@@ -6,6 +6,7 @@ export interface Dictionary {
     home: { title: string; description: string };
     about: { title: string; description: string };
     projects: { title: string; description: string };
+    catalogue: { title: string; description: string };
     contact: { title: string; description: string };
   };
 
@@ -20,6 +21,7 @@ export interface Dictionary {
     services: string;
     capabilities: string;
     projects: string;
+    catalogue: string;
     contact: string;
     contactCta: string;
   };
@@ -110,6 +112,15 @@ export interface Dictionary {
     videoTitle: string;
     backToList: string;
     items: { id: string; name: string; scopeOfWork: string }[];
+  };
+
+  catalogue: {
+    page: { eyebrow: string; title: string; subtitle: string };
+    manufacturerNote: string;
+    pagesLabel: string;
+    view: string;
+    download: string;
+    groups: { title: string; items: { id: string; title: string; description: string }[] }[];
   };
 
   partners: {

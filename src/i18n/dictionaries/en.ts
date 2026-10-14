@@ -25,6 +25,10 @@ export const en: Dictionary = {
       title: "Featured Projects",
       description: "Featured M&E projects delivered by UNICON TBV.",
     },
+    catalogue: {
+      title: "Catalogue & Documents",
+      description: "Product catalogue, certificates and technical files for industrial ceiling fans supplied by UNICON TBV.",
+    },
     contact: {
       title: "Contact",
       description: "Contact UNICON TBV for M&E contracting consultation.",
@@ -42,6 +46,7 @@ export const en: Dictionary = {
     services: "Services",
     capabilities: "Capabilities",
     projects: "Projects",
+    catalogue: "Catalogue",
     contact: "Contact",
     contactCta: "Contact Us",
   },
@@ -347,6 +352,58 @@ export const en: Dictionary = {
         id: "enoel",
         name: "Enoel Vietnam New Materials Technology Factory",
         scopeOfWork: "Workshop and office building renovation",
+      },
+    ],
+  },
+
+  catalogue: {
+    page: {
+      eyebrow: "Catalogue",
+      title: "Catalogue & Technical Documents",
+      subtitle: "View or download the product catalogue, quality certificate and technical files for industrial ceiling fans.",
+    },
+    manufacturerNote:
+      "The documents below belong to the manufacturer, Wuxi Lusida (Lustar) Intelligent Technology Co., Ltd, and are provided for customer reference. Certificates and technical files are the manufacturer's.",
+    pagesLabel: "pages",
+    view: "View",
+    download: "Download",
+    groups: [
+      {
+        title: "Product catalogue",
+        items: [
+          {
+            id: "product-catalogue",
+            title: "Industrial ceiling fan catalogue",
+            description:
+              "Control technology, permanent magnet motor, applications and specifications of the fan range. Languages: Chinese and English.",
+          },
+        ],
+      },
+      {
+        title: "Quality certificate",
+        items: [
+          {
+            id: "iso-9001",
+            title: "ISO 9001:2015 certificate",
+            description:
+              "Quality management system certificate for the manufacturer's industrial fan production, valid until 17 March 2027. Language: English.",
+          },
+        ],
+      },
+      {
+        title: "Technical files",
+        items: [
+          {
+            id: "ce-technical-file",
+            title: "CE technical file",
+            description: "Technical construction file under Machinery Directive 2006/42/EC for the industrial ceiling fan. Language: English.",
+          },
+          {
+            id: "emc-technical-file",
+            title: "EMC technical file",
+            description: "Electromagnetic compatibility (EMC) test file for the industrial ceiling fan, July 2024. Language: English.",
+          },
+        ],
       },
     ],
   },

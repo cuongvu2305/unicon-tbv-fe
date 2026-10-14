@@ -23,6 +23,7 @@ export function Header({ locale, dict }: HeaderProps) {
     { label: dict.nav.services, href: `/${locale}#linh-vuc-hoat-dong` },
     { label: dict.nav.capabilities, href: `/${locale}#nang-luc` },
     { label: dict.nav.projects, href: `/${locale}/du-an` },
+    { label: dict.nav.catalogue, href: `/${locale}/catalogue` },
     { label: dict.nav.contact, href: `/${locale}/lien-he` },
   ];
 

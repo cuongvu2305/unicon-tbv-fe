@@ -16,6 +16,7 @@ export function Footer({ locale, dict }: FooterProps) {
     { label: dict.nav.services, href: `/${locale}#linh-vuc-hoat-dong` },
     { label: dict.nav.capabilities, href: `/${locale}#nang-luc` },
     { label: dict.projects.teaser.eyebrow, href: `/${locale}/du-an` },
+    { label: dict.nav.catalogue, href: `/${locale}/catalogue` },
     { label: dict.nav.contact, href: `/${locale}/lien-he` },
   ];
 
