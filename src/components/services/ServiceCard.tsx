@@ -1,14 +1,19 @@
 import Image from "next/image";
-import { serviceIcons, serviceImages } from "@/i18n/assets";
+import Link from "next/link";
+import { projectGalleries, serviceIcons, serviceImages } from "@/i18n/assets";
+import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionary";
 
 type ServiceItem = Dictionary["services"]["items"][number];
 
-export function ServiceCard({ service }: { service: ServiceItem }) {
+const cardClasses =
+  "group flex flex-col overflow-hidden rounded-2xl border border-navy-100 bg-white transition-shadow duration-200 hover:shadow-lg hover:shadow-navy-900/5";
+
+export function ServiceCard({ service, locale }: { service: ServiceItem; locale: Locale }) {
   const Icon = serviceIcons[service.id];
 
-  return (
-    <div className="group flex flex-col overflow-hidden rounded-2xl border border-navy-100 bg-white transition-shadow duration-200 hover:shadow-lg hover:shadow-navy-900/5">
+  const content = (
+    <>
       <div className="relative aspect-[16/9] w-full overflow-hidden bg-navy-950">
         <Image
           src={serviceImages[service.id]}
@@ -23,10 +28,18 @@ export function ServiceCard({ service }: { service: ServiceItem }) {
           <Icon className="h-6 w-6 text-gold-400 transition-colors duration-200 group-hover:text-navy-950" />
         </span>
         <h3 className="text-base font-bold text-navy-900">{service.title}</h3>
-        <p className="text-sm leading-relaxed text-navy-600">
-          {service.description}
-        </p>
+        <p className="text-sm leading-relaxed text-navy-600">{service.description}</p>
       </div>
-    </div>
+    </>
   );
+
+  // A service whose id matches a project with photos links to that project's page.
+  if (projectGalleries[service.id]) {
+    return (
+      <Link href={`/${locale}/du-an/${service.id}`} className={cardClasses}>
+        {content}
+      </Link>
+    );
+  }
+  return <div className={cardClasses}>{content}</div>;
 }

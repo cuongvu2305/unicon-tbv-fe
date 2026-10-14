@@ -18,7 +18,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     <>
       <Hero locale={locale} dict={dict} />
       <AboutTeaser locale={locale} dict={dict} />
-      <ServicesSection dict={dict} />
+      <ServicesSection locale={locale} dict={dict} />
       <WhyChooseSection dict={dict} />
       <CapabilitiesSection dict={dict} />
       <ProjectsTeaser locale={locale} dict={dict} />

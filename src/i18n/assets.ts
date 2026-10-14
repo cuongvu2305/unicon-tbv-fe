@@ -1,4 +1,4 @@
-import { Zap, Wind, Droplets, Wifi, FlameKindling, type LucideIcon } from "lucide-react";
+import { Zap, Wind, Droplets, Wifi, FlameKindling, Fan, type LucideIcon } from "lucide-react";
 
 /**
  * Locale-independent lookups keyed by a stable `id` — icons and image paths
@@ -11,6 +11,7 @@ export const serviceIcons: Record<string, LucideIcon> = {
   "cap-thoat-nuoc": Droplets,
   "dien-nhe": Wifi,
   pccc: FlameKindling,
+  "quat-tran-cong-nghiep": Fan,
 };
 
 export const projectImages: Record<string, string> = {
@@ -23,6 +24,7 @@ export const projectImages: Record<string, string> = {
   hmt: "/images/projects/hmt/03.jpg",
   yida: "/images/projects/yida/14.jpg",
   "gia-thinh": "/images/projects/gia-thinh/18.jpg",
+  "quat-tran-cong-nghiep": "/images/projects/quat-tran-cong-nghiep/03.jpg",
   "soi-gia": "/images/projects/soi-gia.svg",
   enoel: "/images/projects/enoel.svg",
 };
@@ -33,6 +35,7 @@ const galleryOf = (id: string, count: number) =>
 
 export const projectGalleries: Record<string, string[]> = {
   "hoa-mau": galleryOf("hoa-mau", 16),
+  "quat-tran-cong-nghiep": galleryOf("quat-tran-cong-nghiep", 4),
   "gia-thinh": galleryOf("gia-thinh", 21),
   yida: galleryOf("yida", 22),
   hmt: galleryOf("hmt", 4),
@@ -43,6 +46,7 @@ export const projectGalleries: Record<string, string[]> = {
 /** Videos per project, keyed by project id (projects without videos are omitted). */
 export const projectVideos: Record<string, string[]> = {
   "gia-thinh": ["/videos/gia-thinh/01.mp4"],
+  "quat-tran-cong-nghiep": ["/videos/quat-tran-cong-nghiep/01.mp4", "/videos/quat-tran-cong-nghiep/02.mp4", "/videos/quat-tran-cong-nghiep/03.mp4", "/videos/quat-tran-cong-nghiep/04.mp4", "/videos/quat-tran-cong-nghiep/05.mp4"],
 };
 
 export const heroSlides: string[] = [
@@ -59,6 +63,7 @@ export const serviceImages: Record<string, string> = {
   "cap-thoat-nuoc": "/images/projects/hoa-mau/03.jpg",
   "dien-nhe": "/images/projects/yida/10.jpg",
   pccc: "/images/projects/thuan-thanh-3/04.jpg",
+  "quat-tran-cong-nghiep": "/images/projects/quat-tran-cong-nghiep/03.jpg",
 };
 
 export const partnerLogos: Record<string, string> = {

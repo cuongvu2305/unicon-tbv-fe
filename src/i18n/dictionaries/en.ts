@@ -81,7 +81,7 @@ export const en: Dictionary = {
       },
       {
         title: "Multi-discipline M&E",
-        description: "{n} fields: power, HVAC, water supply and drainage, low-voltage and fire protection.",
+        description: "{n} fields: power, HVAC, water supply and drainage, low-voltage, fire protection and industrial ceiling fans.",
       },
       {
         title: "Real projects",
@@ -203,6 +203,12 @@ export const en: Dictionary = {
         description:
           "Design and installation of code-compliant fire protection systems, ensuring maximum safety for people and property.",
       },
+      {
+        id: "quat-tran-cong-nghiep",
+        title: "Industrial Ceiling Fans",
+        description:
+          "Supply and installation of large HVLS industrial ceiling fans for factories, warehouses and sports halls, improving air circulation, cooling and saving energy.",
+      },
     ],
   },
 
@@ -315,6 +321,11 @@ export const en: Dictionary = {
         id: "gia-thinh",
         name: "Gia Thinh Project",
         scopeOfWork: "Mechanical and electrical (M&E) installation",
+      },
+      {
+        id: "quat-tran-cong-nghiep",
+        name: "Industrial ceiling fans",
+        scopeOfWork: "Supply and installation of industrial ceiling fans",
       },
       {
         id: "soi-gia",
