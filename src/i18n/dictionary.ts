@@ -114,6 +114,13 @@ export interface Dictionary {
     items: { id: string; name: string; scopeOfWork: string }[];
   };
 
+  serviceDetail: {
+    backToList: string;
+    scopeTitle: string;
+    relatedProjectsTitle: string;
+    items: { id: string; intro: string; scope: string[] }[];
+  };
+
   catalogue: {
     page: { eyebrow: string; title: string; subtitle: string };
     manufacturerNote: string;

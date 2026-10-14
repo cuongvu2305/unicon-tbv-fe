@@ -357,6 +357,74 @@ export const vi: Dictionary = {
     ],
   },
 
+  serviceDetail: {
+    backToList: "Tất cả lĩnh vực",
+    scopeTitle: "Phạm vi công việc",
+    relatedProjectsTitle: "Dự án liên quan",
+    items: [
+      {
+        id: "dien-dong-luc",
+        intro:
+          "UNICON TBV thiết kế và thi công hệ thống điện động lực và điện chiếu sáng cho nhà máy, nhà xưởng và công trình dân dụng, đảm bảo cấp điện ổn định, an toàn và thuận tiện cho vận hành, bảo trì.",
+        scope: [
+          "Thi công tuyến cáp điện, thang máng cáp, ống luồn dây",
+          "Lắp đặt tủ điện phân phối, tủ điều khiển",
+          "Hệ thống chiếu sáng nhà xưởng, văn phòng và chiếu sáng sự cố",
+          "Hệ thống nối đất và chống sét",
+          "Kiểm tra, thử nghiệm và bàn giao hệ thống",
+        ],
+      },
+      {
+        id: "dieu-hoa-thong-gio",
+        intro:
+          "Chúng tôi cung cấp giải pháp điều hòa không khí và thông gió trọn gói, từ tính toán tải nhiệt, lựa chọn thiết bị đến lắp đặt, vận hành thử cho nhà xưởng, văn phòng và công trình công nghiệp.",
+        scope: [
+          "Tính toán tải nhiệt và tư vấn lựa chọn thiết bị",
+          "Lắp đặt hệ thống điều hòa trung tâm và điều hòa cục bộ",
+          "Thi công ống gió, bọc cách nhiệt, miệng gió",
+          "Hệ thống thông gió, hút khí và làm mát nhà xưởng",
+          "Cung cấp, lắp đặt quạt công nghiệp; vận hành thử và bàn giao",
+        ],
+      },
+      {
+        id: "cap-thoat-nuoc",
+        intro:
+          "UNICON TBV thi công hệ thống cấp nước sinh hoạt, thoát nước thải và thoát nước mưa cho nhà máy và công trình, bao gồm cả công nghệ thoát nước mưa Siphonic và lắp đặt trạm xử lý nước thải.",
+        scope: [
+          "Lắp đặt đường ống cấp nước, thiết bị vệ sinh và đồng hồ đo nước",
+          "Thi công hệ thống thoát nước thải và thoát nước mưa, bao gồm Siphonic",
+          "Lắp đặt trạm bơm, bồn chứa và hệ thống van",
+          "Lắp đặt thiết bị và đường ống trạm xử lý nước thải",
+          "Thử áp lực, kiểm tra rò rỉ và bàn giao",
+        ],
+      },
+      {
+        id: "dien-nhe",
+        intro:
+          "Chúng tôi triển khai hệ thống điện nhẹ cho văn phòng, nhà máy và công trình dân dụng, đáp ứng nhu cầu an ninh, kết nối và truyền thông nội bộ.",
+        scope: [
+          "Hệ thống camera an ninh giám sát",
+          "Mạng Internet, mạng nội bộ và hạ tầng cáp",
+          "Hệ thống điện thoại nội bộ",
+          "Hệ thống truyền hình và âm thanh",
+          "Cấu hình, nghiệm thu và hướng dẫn sử dụng",
+        ],
+      },
+      {
+        id: "pccc",
+        intro:
+          "UNICON TBV thiết kế và thi công hệ thống phòng cháy chữa cháy đạt chuẩn, đảm bảo an toàn tối đa cho con người và tài sản trong công trình.",
+        scope: [
+          "Hệ thống báo cháy tự động",
+          "Hệ thống chữa cháy bằng nước: ống, đầu phun sprinkler, họng nước chữa cháy",
+          "Lắp đặt trạm bơm chữa cháy và bình chữa cháy",
+          "Hệ thống đèn chiếu sáng sự cố và biển chỉ dẫn thoát nạn",
+          "Nghiệm thu và hỗ trợ hồ sơ với cơ quan chức năng",
+        ],
+      },
+    ],
+  },
+
   catalogue: {
     page: {
       eyebrow: "Catalogue",

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { serviceProjects } from "@/data/services";
 import { projectGalleries, serviceIcons, serviceImages } from "@/i18n/assets";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionary";
@@ -33,10 +34,16 @@ export function ServiceCard({ service, locale }: { service: ServiceItem; locale:
     </>
   );
 
-  // A service whose id matches a project with photos links to that project's page.
-  if (projectGalleries[service.id]) {
+  // Services with a detail page link there; otherwise a service whose id matches a
+  // project with photos links to that project's page.
+  const href = serviceProjects[service.id]
+    ? `/${locale}/linh-vuc/${service.id}`
+    : projectGalleries[service.id]
+      ? `/${locale}/du-an/${service.id}`
+      : null;
+  if (href) {
     return (
-      <Link href={`/${locale}/du-an/${service.id}`} className={cardClasses}>
+      <Link href={href} className={cardClasses}>
         {content}
       </Link>
     );

@@ -356,6 +356,74 @@ export const en: Dictionary = {
     ],
   },
 
+  serviceDetail: {
+    backToList: "All fields",
+    scopeTitle: "Scope of work",
+    relatedProjectsTitle: "Related projects",
+    items: [
+      {
+        id: "dien-dong-luc",
+        intro:
+          "UNICON TBV designs and installs power and lighting systems for factories, workshops and civil buildings, ensuring stable, safe power supply that is easy to operate and maintain.",
+        scope: [
+          "Cable routes, cable trays and conduits",
+          "Distribution boards and control panels",
+          "Workshop, office and emergency lighting",
+          "Earthing and lightning protection",
+          "Inspection, testing and handover",
+        ],
+      },
+      {
+        id: "dieu-hoa-thong-gio",
+        intro:
+          "We provide turnkey air-conditioning and ventilation solutions, from heat load calculation and equipment selection to installation and commissioning for workshops, offices and industrial buildings.",
+        scope: [
+          "Heat load calculation and equipment advice",
+          "Central and local air-conditioning installation",
+          "Ductwork, insulation and diffusers",
+          "Ventilation, exhaust and workshop cooling",
+          "Supply and installation of industrial fans; commissioning and handover",
+        ],
+      },
+      {
+        id: "cap-thoat-nuoc",
+        intro:
+          "UNICON TBV installs domestic water supply, wastewater and stormwater systems for factories and buildings, including Siphonic stormwater drainage and wastewater treatment plant installation.",
+        scope: [
+          "Water supply pipes, sanitary fixtures and water meters",
+          "Wastewater and stormwater drainage, including Siphonic",
+          "Pump stations, tanks and valve systems",
+          "Equipment and piping for wastewater treatment plants",
+          "Pressure testing, leak checks and handover",
+        ],
+      },
+      {
+        id: "dien-nhe",
+        intro:
+          "We deliver low-voltage systems for offices, factories and civil buildings covering security, connectivity and internal communication.",
+        scope: [
+          "CCTV security cameras",
+          "Internet, local network and cabling infrastructure",
+          "Internal telephone system",
+          "Television and audio systems",
+          "Configuration, acceptance and user training",
+        ],
+      },
+      {
+        id: "pccc",
+        intro:
+          "UNICON TBV designs and installs code-compliant fire protection systems, ensuring maximum safety for people and property.",
+        scope: [
+          "Automatic fire alarm systems",
+          "Water-based fire fighting: pipes, sprinklers and hydrants",
+          "Fire pump stations and extinguishers",
+          "Emergency lighting and evacuation signs",
+          "Acceptance and support with authority submissions",
+        ],
+      },
+    ],
+  },
+
   catalogue: {
     page: {
       eyebrow: "Catalogue",
